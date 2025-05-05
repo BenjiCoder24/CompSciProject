@@ -13,6 +13,113 @@ MainCode/
 └── resources/          # Game assets (images, sounds)
 ```
 
+## Installation and Setup
+
+### Prerequisites
+
+1. **Java Development Kit (JDK)**
+   - Download and install JDK 8 or higher from [Oracle's website](https://www.oracle.com/java/technologies/downloads/) or use OpenJDK
+   - Verify installation by running:
+     ```bash
+     java -version
+     javac -version
+     ```
+
+2. **Git (Optional, for version control)**
+   - Download and install Git from [git-scm.com](https://git-scm.com/downloads)
+   - Verify installation:
+     ```bash
+     git --version
+     ```
+
+### Setting Up the Project
+
+1. **Clone the Repository (if using Git)**
+   ```bash
+   git clone https://github.com/BenjiCoder24/CompSciProject.git
+   cd CompSciProject
+   ```
+
+2. **Verify Directory Structure**
+   - Ensure you have the following structure:
+     ```
+     CompSciProject/
+     ├── MainCode/
+     │   ├── ChessBoard.java
+     │   ├── ChessGame.java
+     │   ├── SoundManager.java
+     │   ├── Movement/
+     │   └── resources/
+     ```
+
+3. **Check Resource Files**
+   - Verify that the `resources` directory contains:
+     - Chess piece images
+     - Sound files (if using external sound files)
+
+### Compiling the Application
+
+1. **Navigate to MainCode Directory**
+   ```bash
+   cd MainCode
+   ```
+
+2. **Compile All Java Files**
+   ```bash
+   # On Windows
+   javac *.java Movement/*.java
+
+   # On macOS/Linux
+   javac *.java Movement/*.java
+   ```
+
+3. **Verify Compilation**
+   - Check that `.class` files have been generated for:
+     - ChessBoard.java
+     - ChessGame.java
+     - SoundManager.java
+     - All files in the Movement directory
+
+### Running the Application
+
+1. **Start the Game**
+   ```bash
+   # On Windows
+   java ChessBoard
+
+   # On macOS/Linux
+   java ChessBoard
+   ```
+
+2. **Troubleshooting Common Issues**
+
+   a. **Class Not Found Error**
+   - Ensure you're in the MainCode directory
+   - Verify all files compiled successfully
+   - Check for any compilation errors
+
+   b. **Missing Resource Files**
+   - Verify the resources directory structure
+   - Check file permissions
+   - Ensure all required images and sounds are present
+
+   c. **Sound Issues**
+   - Check system sound settings
+   - Verify Java sound system is working
+   - Test with a simple sound program if needed
+
+3. **Development Environment Setup (Optional)**
+   - Recommended IDEs:
+     - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+     - [Eclipse](https://www.eclipse.org/downloads/)
+     - [VS Code](https://code.visualstudio.com/) with Java extensions
+
+   - IDE Setup Steps:
+     1. Import the project
+     2. Set JDK version
+     3. Configure build path
+     4. Set up run configuration for ChessBoard
+
 ## Features
 
 1. **Graphical User Interface**
