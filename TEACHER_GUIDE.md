@@ -184,41 +184,38 @@ Add the following screenshots to your presentation, labeled as shown below:
    - Label: "Figure 1: Chess Game Main Interface"
    - Description: "The main game window showing the 8x8 chess board, captured pieces panels, and control buttons"
    - What to capture: The entire game window with pieces in starting position
+  
+<img width="649" alt="image" src="https://github.com/user-attachments/assets/8b7a3edf-dcf9-4b70-a0d4-15b1815d1913" />
 
 2. **Piece Movement**
    - Label: "Figure 2: Piece Selection and Movement"
    - Description: "Demonstrating piece selection (highlighted) and valid move options"
    - What to capture: A selected piece with its valid moves highlighted
+  
+  <img width="649" alt="image" src="https://github.com/user-attachments/assets/7317ab69-41db-4a36-b372-7aa6fc433fd4" />
+
 
 3. **Capture Move**
    - Label: "Figure 3: Capture Move Execution"
    - Description: "Showing a piece capturing another piece and the captured piece being added to the panel"
    - What to capture: A piece capturing another piece, with the captured piece visible in the appropriate panel
-
-4. **Special Moves**
-   - Label: "Figure 4: Special Moves (Castling)"
-   - Description: "Demonstrating the castling move with king and rook"
-   - What to capture: A castling move in progress or completed
-
-5. **Suggest Move Feature**
-   - Label: "Figure 5: Move Suggestion System"
-   - Description: "The 'Suggest Move' feature highlighting a valid move"
-   - What to capture: The board with a suggested move highlighted
+  
+<img width="649" alt="image" src="https://github.com/user-attachments/assets/9728d926-299e-4b94-991d-5507eac24a41" />
 
 6. **Code Structure**
    - Label: "Figure 6: Project Code Structure"
    - Description: "The organization of Java files in the project"
-   - What to capture: The MainCode directory structure showing all Java files
+   - What to capture: The MainCode directory structure showing all Java 
+
+<img width="626" alt="image" src="https://github.com/user-attachments/assets/d6301c47-18b9-4bd3-9c88-9a6098c19c11" />
 
 7. **Class Diagram**
    - Label: "Figure 7: Main Class Relationships"
    - Description: "The relationship between main classes (ChessBoard, ChessGame, SoundManager)"
    - What to capture: A UML class diagram showing class relationships
 
-8. **Sound Implementation**
-   - Label: "Figure 8: Sound Generation Code"
-   - Description: "The sound generation and playback implementation"
-   - What to capture: The relevant code sections from SoundManager.java
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/6a2d212e-08bb-42d2-8a08-36fa79ef4881" />
+
 
 ## 8. Running the Application
 
