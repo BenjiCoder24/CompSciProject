@@ -165,4 +165,89 @@ public void playMoveSound() {
    - Demonstrate sound generation
    - Explain GUI updates
 
-Remember to focus on the educational aspects of the code and how it demonstrates important programming concepts and best practices. 
+Remember to focus on the educational aspects of the code and how it demonstrates important programming concepts and best practices.
+
+## 7. Screenshots and Visual Aids
+
+### Required Screenshots
+Add the following screenshots to your presentation, labeled as shown below:
+
+1. **Main Game Interface**
+   - Label: "Figure 1: Chess Game Main Interface"
+   - Description: "The main game window showing the 8x8 chess board, captured pieces panels, and control buttons"
+   - What to capture: The entire game window with pieces in starting position
+
+2. **Piece Movement**
+   - Label: "Figure 2: Piece Selection and Movement"
+   - Description: "Demonstrating piece selection (highlighted) and valid move options"
+   - What to capture: A selected piece with its valid moves highlighted
+
+3. **Capture Move**
+   - Label: "Figure 3: Capture Move Execution"
+   - Description: "Showing a piece capturing another piece and the captured piece being added to the panel"
+   - What to capture: A piece capturing another piece, with the captured piece visible in the appropriate panel
+
+4. **Special Moves**
+   - Label: "Figure 4: Special Moves (Castling)"
+   - Description: "Demonstrating the castling move with king and rook"
+   - What to capture: A castling move in progress or completed
+
+5. **Suggest Move Feature**
+   - Label: "Figure 5: Move Suggestion System"
+   - Description: "The 'Suggest Move' feature highlighting a valid move"
+   - What to capture: The board with a suggested move highlighted
+
+6. **Code Structure**
+   - Label: "Figure 6: Project Code Structure"
+   - Description: "The organization of Java files in the project"
+   - What to capture: The MainCode directory structure showing all Java files
+
+7. **Class Diagram**
+   - Label: "Figure 7: Main Class Relationships"
+   - Description: "The relationship between main classes (ChessBoard, ChessGame, SoundManager)"
+   - What to capture: A UML class diagram showing class relationships
+
+8. **Sound Implementation**
+   - Label: "Figure 8: Sound Generation Code"
+   - Description: "The sound generation and playback implementation"
+   - What to capture: The relevant code sections from SoundManager.java
+
+### Screenshot Guidelines
+1. **Quality Requirements**
+   - Use high-resolution screenshots
+   - Ensure text is readable
+   - Maintain consistent image sizes
+   - Use PNG format for better quality
+
+2. **Labeling Format**
+   - Use clear, descriptive labels
+   - Include figure numbers
+   - Add brief descriptions
+   - Reference screenshots in your presentation
+
+3. **Presentation Tips**
+   - Show screenshots in logical order
+   - Explain each screenshot's significance
+   - Connect screenshots to code concepts
+   - Use screenshots to illustrate key features
+
+4. **Code Screenshots**
+   - Focus on important methods
+   - Highlight key algorithms
+   - Show relevant comments
+   - Include method signatures
+
+### Suggested Screenshot Sequence
+1. Start with the main interface
+2. Show basic gameplay (movement)
+3. Demonstrate special features
+4. Present code structure
+5. Show implementation details
+6. End with class relationships
+
+Remember to:
+- Take screenshots in a well-lit environment
+- Use consistent window sizes
+- Include relevant UI elements
+- Capture both success and error states
+- Show the progression of features 
