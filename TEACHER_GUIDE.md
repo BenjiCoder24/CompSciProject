@@ -1,4 +1,4 @@
- # Chess Game Code Explanation Guide
+# Chess Game Code Explanation Guide
 
 This guide provides key points to explain when presenting the chess game code to teachers.
 
@@ -175,47 +175,17 @@ public void playMoveSound() {
 
 Remember to focus on the educational aspects of the code and how it demonstrates important programming concepts and best practices.
 
-## 7. Screenshots and Visual Aids
+## 7. Visual Documentation
 
-### Required Screenshots
-Add the following screenshots to your presentation, labeled as shown below:
+For screenshots and visual aids of the application, please refer to the Screenshots section in the README.md file. The screenshots there demonstrate:
 
-1. **Main Game Interface**
-   - Label: "Figure 1: Chess Game Main Interface"
-   - Description: "The main game window showing the 8x8 chess board, captured pieces panels, and control buttons"
-   - What to capture: The entire game window with pieces in starting position
-  
-<img width="649" alt="image" src="https://github.com/user-attachments/assets/8b7a3edf-dcf9-4b70-a0d4-15b1815d1913" />
+1. Main game interface and board layout
+2. Piece movement and selection
+3. Capture moves
+4. Code structure
+5. Class relationships diagram
 
-2. **Piece Movement**
-   - Label: "Figure 2: Piece Selection and Movement"
-   - Description: "Demonstrating piece selection (highlighted) and valid move options"
-   - What to capture: A selected piece with its valid moves highlighted
-  
-  <img width="649" alt="image" src="https://github.com/user-attachments/assets/7317ab69-41db-4a36-b372-7aa6fc433fd4" />
-
-
-3. **Capture Move**
-   - Label: "Figure 3: Capture Move Execution"
-   - Description: "Showing a piece capturing another piece and the captured piece being added to the panel"
-   - What to capture: A piece capturing another piece, with the captured piece visible in the appropriate panel
-  
-<img width="649" alt="image" src="https://github.com/user-attachments/assets/9728d926-299e-4b94-991d-5507eac24a41" />
-
-6. **Code Structure**
-   - Label: "Figure 6: Project Code Structure"
-   - Description: "The organization of Java files in the project"
-   - What to capture: The MainCode directory structure showing all Java 
-
-<img width="626" alt="image" src="https://github.com/user-attachments/assets/d6301c47-18b9-4bd3-9c88-9a6098c19c11" />
-
-7. **Class Diagram**
-   - Label: "Figure 7: Main Class Relationships"
-   - Description: "The relationship between main classes (ChessBoard, ChessGame, SoundManager)"
-   - What to capture: A UML class diagram showing class relationships
-
-<img width="955" alt="image" src="https://github.com/user-attachments/assets/6a2d212e-08bb-42d2-8a08-36fa79ef4881" />
-
+These visuals can be helpful when explaining the application's features and architecture to students.
 
 ## 8. Running the Application
 

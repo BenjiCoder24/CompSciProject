@@ -148,6 +148,35 @@ You can run the game in two ways:
    - Move sound effects
    - Capture sound effects
 
+## Screenshots and Visual Aids
+
+### Game Interface and Features
+1. **Main Game Interface**
+   - The main game window showing the 8x8 chess board, captured pieces panels, and control buttons
+   
+<img width="649" alt="Chess Game Main Interface" src="https://github.com/user-attachments/assets/8b7a3edf-dcf9-4b70-a0d4-15b1815d1913" />
+
+2. **Piece Movement**
+   - Demonstrating piece selection (highlighted) and valid move options
+   
+<img width="649" alt="Piece Selection and Movement" src="https://github.com/user-attachments/assets/7317ab69-41db-4a36-b372-7aa6fc433fd4" />
+
+3. **Capture Move**
+   - Showing a piece capturing another piece and the captured piece being added to the panel
+   
+<img width="649" alt="Capture Move Execution" src="https://github.com/user-attachments/assets/9728d926-299e-4b94-991d-5507eac24a41" />
+
+### Technical Documentation
+1. **Code Structure**
+   - The organization of Java files in the project
+   
+<img width="626" alt="Project Code Structure" src="https://github.com/user-attachments/assets/d6301c47-18b9-4bd3-9c88-9a6098c19c11" />
+
+2. **Class Diagram**
+   - The relationship between main classes (ChessBoard, ChessGame, SoundManager)
+   
+<img width="955" alt="Main Class Relationships" src="https://github.com/user-attachments/assets/6a2d212e-08bb-42d2-8a08-36fa79ef4881" />
+
 ## How to Play
 
 1. **Starting the Game**
