@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -46,10 +48,25 @@ public class ChessBoard extends JFrame {
     private final Color lightSquareColor = new Color(240, 240, 210); // Light beige
     private final Color darkSquareColor = new Color(120, 150, 90);  // Olive green
     
+    // Add SoundManager
+    private SoundManager soundManager;
+    
     public ChessBoard() {
+        // Initialize SoundManager
+        soundManager = new SoundManager();
+        
         setTitle("Chess Board");
         setSize(650, 800); // Increased height for captured pieces panels
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        // Add window listener to stop background music when closing
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                // Clean up resources
+                dispose();
+            }
+        });
         
         // Load chess piece images
         loadPieceImages();
@@ -352,6 +369,13 @@ public class ChessBoard extends JFrame {
                     // Display piece counts
                     System.out.println("White pieces: " + game.getWhitePieces().size());
                     System.out.println("Black pieces: " + game.getBlackPieces().size());
+                    
+                    // If a piece is captured
+                    if (destinationPieceText != null) {
+                        soundManager.playCaptureSound();
+                    } else {
+                        soundManager.playMoveSound();
+                    }
                 } else {
                     // This should not happen if isValidMove returns true, but just in case
                     statusLabel.setText("Error making move!");
@@ -506,6 +530,13 @@ public class ChessBoard extends JFrame {
         char file = (char)('A' + col);
         int rank = 8 - row;
         return "" + file + rank;
+    }
+
+    public void dispose() {
+        super.dispose();
+        if (soundManager != null) {
+            soundManager = null;
+        }
     }
 
     public static void main(String[] args) {
