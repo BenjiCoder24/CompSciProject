@@ -156,6 +156,14 @@ public void playMoveSound() {
    - Show class relationships
 
 2. **Run the Game**
+   - Use the start script for quick demonstration:
+     ```bash
+     ./start.sh
+     ```
+   - This script automatically:
+     - Compiles all necessary files
+     - Handles any compilation errors
+     - Starts the game
    - Demonstrate basic moves
    - Show special moves
    - Highlight sound effects
@@ -212,42 +220,40 @@ Add the following screenshots to your presentation, labeled as shown below:
    - Description: "The sound generation and playback implementation"
    - What to capture: The relevant code sections from SoundManager.java
 
-### Screenshot Guidelines
-1. **Quality Requirements**
-   - Use high-resolution screenshots
-   - Ensure text is readable
-   - Maintain consistent image sizes
-   - Use PNG format for better quality
+## 8. Running the Application
 
-2. **Labeling Format**
-   - Use clear, descriptive labels
-   - Include figure numbers
-   - Add brief descriptions
-   - Reference screenshots in your presentation
+### Quick Start Method
+The project includes a `start.sh` script that simplifies running the application:
 
-3. **Presentation Tips**
-   - Show screenshots in logical order
-   - Explain each screenshot's significance
-   - Connect screenshots to code concepts
-   - Use screenshots to illustrate key features
+1. Make the script executable:
+   ```bash
+   chmod +x start.sh
+   ```
 
-4. **Code Screenshots**
-   - Focus on important methods
-   - Highlight key algorithms
-   - Show relevant comments
-   - Include method signatures
+2. Run the game:
+   ```bash
+   ./start.sh
+   ```
 
-### Suggested Screenshot Sequence
-1. Start with the main interface
-2. Show basic gameplay (movement)
-3. Demonstrate special features
-4. Present code structure
-5. Show implementation details
-6. End with class relationships
+This script handles all compilation and execution steps automatically, making it ideal for classroom demonstrations.
 
-Remember to:
-- Take screenshots in a well-lit environment
-- Use consistent window sizes
-- Include relevant UI elements
-- Capture both success and error states
-- Show the progression of features 
+### Manual Method (Alternative)
+For a more detailed demonstration of the compilation process:
+
+1. Navigate to the MainCode directory:
+   ```bash
+   cd MainCode
+   ```
+
+2. Compile the Java files:
+   ```bash
+   javac *.java Movement/*.java
+   ```
+
+3. Run the game:
+   ```bash
+   java ChessBoard
+   ```
+
+
+

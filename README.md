@@ -40,22 +40,20 @@ MainCode/
    cd CompSciProject
    ```
 
-2. **Verify Directory Structure**
-   - Ensure you have the following structure:
-     ```
-     CompSciProject/
-     ├── MainCode/
-     │   ├── ChessBoard.java
-     │   ├── ChessGame.java
-     │   ├── SoundManager.java
-     │   ├── Movement/
-     │   └── resources/
-     ```
+2. **Make the start script executable**
+   ```bash
+   chmod +x start.sh
+   ```
 
-3. **Check Resource Files**
-   - Verify that the `resources` directory contains:
-     - Chess piece images
-     - Sound files (if using external sound files)
+3. **Run the game**
+   ```bash
+   ./start.sh
+   ```
+
+   This will automatically:
+   - Compile all necessary Java files
+   - Start the chess game
+   - Handle any compilation errors
 
 ### Compiling the Application
 
@@ -82,12 +80,17 @@ MainCode/
 
 ### Running the Application
 
-1. **Start the Game**
-   ```bash
-   # On Windows
-   java ChessBoard
+You can run the game in two ways:
 
-   # On macOS/Linux
+1. **Using the start script (Recommended)**
+   ```bash
+   ./start.sh
+   ```
+
+2. **Manual compilation and execution**
+   ```bash
+   cd MainCode
+   javac *.java Movement/*.java
    java ChessBoard
    ```
 
@@ -190,19 +193,6 @@ MainCode/
 - Java 8 or higher
 - Java Swing for GUI
 - Java Sound API for sound effects
-
-## Running the Game
-
-1. Compile all Java files:
-   ```bash
-   cd MainCode
-   javac *.java Movement/*.java
-   ```
-
-2. Run the game:
-   ```bash
-   java ChessBoard
-   ```
 
 ## Code Explanation for Teachers
 
